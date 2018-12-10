@@ -32,7 +32,7 @@ from matplotlib.ticker import NullFormatter
 from sklearn import manifold, datasets
 
 # Next line to silence pyflakes. This import is needed.
-Axes3D
+# Axes3D
 
 n_points = 1000
 X, color = datasets.samples_generator.make_s_curve(n_points, random_state=0)
